@@ -5,6 +5,7 @@
     <home-login :is-show-login="isShowLogin" @close-login="handleLoginCilck"></home-login>
     <home-setup :is-show-set="isShowSet" @close-set="handleSetCilck"></home-setup>
     <home-mycenter :is-show-mycenter="isShowMycenter"></home-mycenter>
+    <home-recommend></home-recommend>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import HomeSwiper from './components/Swiper'
 import HomeLogin from './components/Login'
 import HomeSetup from './components/Setup'
 import HomeMycenter from './components/Mycenter'
+import HomeRecommend from './components/Recommend'
 export default {
   name: 'Home',
   components: {
@@ -21,7 +23,8 @@ export default {
     HomeSwiper,
     HomeLogin,
     HomeSetup,
-    HomeMycenter
+    HomeMycenter,
+    HomeRecommend
   },
   data () {
     return {
