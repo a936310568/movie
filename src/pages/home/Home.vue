@@ -6,6 +6,7 @@
     <home-setup :is-show-set="isShowSet" @close-set="handleSetCilck"></home-setup>
     <home-mycenter :is-show-mycenter="isShowMycenter"></home-mycenter>
     <home-recommend></home-recommend>
+    <home-sidebar></home-sidebar>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import HomeLogin from './components/Login'
 import HomeSetup from './components/Setup'
 import HomeMycenter from './components/Mycenter'
 import HomeRecommend from './components/Recommend'
+import HomeSidebar from './components/Sidebar'
 export default {
   name: 'Home',
   components: {
@@ -24,7 +26,8 @@ export default {
     HomeLogin,
     HomeSetup,
     HomeMycenter,
-    HomeRecommend
+    HomeRecommend,
+    HomeSidebar
   },
   data () {
     return {

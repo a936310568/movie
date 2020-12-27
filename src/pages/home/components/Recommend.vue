@@ -6,8 +6,7 @@
     <div class="tab">
       <div class="tab_list">
         <ul class="kill-role">
-          <li class="lian"><a href="#1" class="a-li">里昂</a></li>
-          <li class="mati"><a href="#1" class="a-ma">玛蒂尔达</a></li>
+          <li v-for="(item, index) in liList" :key="index" @click="addClass(index)" :class="active == index?'actice' : ''">{{item.title}}</li>
         </ul>
       </div>
       <div class="tab-con">
@@ -42,7 +41,22 @@
 
 <script>
 export default {
-  name: 'HomeRecommend'
+  name: 'HomeRecommend',
+  data () {
+    return {
+      active: 0,
+      liList: [
+        { title: '里昂' },
+        { title: '玛蒂尔达' }
+      ]
+    }
+  },
+  methods: {
+    addClass (index) {
+      this.active = index
+      this.$forceUpdate()
+    }
+  }
 }
 </script>
 
@@ -60,23 +74,17 @@ export default {
   .kill-role
     height 4rem
     background #fff
-    .lian
+    li
       list-style none
-      width 3rem
+      width 4rem
       height 2rem
       float left
       line-height 2rem
       text-align center
-      .lian a:hover {
-        color #000
-      }
-    .mati
-      list-style none
-      width 5rem
-      height 2rem
-      float left
-      line-height 2rem
-      text-align center
+    .current {
+      background red
+      color #fff
+    }
   .tab-con
     display flex
     height 20rem
