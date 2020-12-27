@@ -6,7 +6,7 @@
     <div class="movie-left-recommend">推荐电影</div>
     <div class="movie-left-love">高分电影</div>
     <div class="my-center">
-      <button class="btn-center">个人中心</button>
+      <button class="btn-center" @mouseover="showMycenter" @mouseleave="closeMycenter">个人中心</button>
     </div>
     <div class="set-up">
       <button class="btn-set" @click="clickSet">注册</button>
@@ -26,6 +26,12 @@ export default {
     },
     clickSet () {
       this.$emit('show-set', true)
+    },
+    showMycenter () {
+      this.$emit('show-mycenter', true)
+    },
+    closeMycenter () {
+      this.$emit('close-mycenter', false)
     }
   }
 }
