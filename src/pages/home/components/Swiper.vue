@@ -1,6 +1,6 @@
 <template>
   <div class="wirpper">
-    <swiper class="swiper" :options="swiperOption" :not-next-tick="notNextTick" ref="mySwiper">
+    <swiper class="swiper">
     <!-- slides -->
     <swiper-slide>
       <div class="First-img">
@@ -36,7 +36,6 @@
       </div>
     </swiper-slide>
     <!-- Optional controls -->
-    <div class="swiper-pagination"  slot="pagination"></div>
   </swiper>
   </div>
 </template>

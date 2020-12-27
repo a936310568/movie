@@ -5,15 +5,29 @@
     </div>
     <div class="movie-left-recommend">推荐电影</div>
     <div class="movie-left-love">高分电影</div>
-    <div class="my-center">个人中心</div>
-    <div class="set-up">注册</div>
-    <div class="login">登录</div>
+    <div class="my-center">
+      <button class="btn-center">个人中心</button>
+    </div>
+    <div class="set-up">
+      <button class="btn-set" @click="clickSet">注册</button>
+    </div>
+    <div class="login">
+      <button class="btn-login" @click="loginClick">登录</button>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HomeHeader'
+  name: 'HomeHeader',
+  methods: {
+    loginClick () {
+      this.$emit('show-login', true)
+    },
+    clickSet () {
+      this.$emit('show-set', true)
+    }
+  }
 }
 </script>
 
@@ -50,16 +64,28 @@ export default {
       font-style 1.5rem
       line-height 5.533333rem
       margin 0 1rem
+      .btn-center
+        background #222
+        border .013333rem solid #222
+        line-height 3rem
     .set-up
       float right
       color #ffffff
       font-style 1.5rem
       line-height 5.533333rem
       margin 0 1rem
+      .btn-set
+        background #222
+        border .013333rem solid #222
+        line-height 3rem
     .login
       float right
       color #ffffff
       font-style 1.5rem
       line-height 5.533333rem
       margin 0 1rem
+      .btn-login
+        background #222
+        border .013333rem solid #222
+        line-height 3rem
 </style>
