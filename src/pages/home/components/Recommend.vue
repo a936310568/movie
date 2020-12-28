@@ -2,7 +2,7 @@
   <div class="the-recommend">
     <div class="First-movie">
       <div class="movie-kill">
-        <div class="kill-title"><h2>Leon - The Professional</h2></div>
+        <div class="kill-title"><h2 id="kill">Leon - The Professional</h2></div>
       </div>
       <div class="tab">
         <div class="tab_list">
@@ -38,7 +38,7 @@
     </div>
     <div class="Second-movie">
       <div class="movie-kill">
-        <div class="kill-title"><h2>The Fast and the Furious</h2></div>
+        <div class="kill-title"><h2 id="fast">The Fast and the Furious</h2></div>
       </div>
       <div class="tab">
         <div class="tab_list">
@@ -74,7 +74,7 @@
     </div>
     <div class="Second-movie">
       <div class="movie-kill">
-        <div class="kill-title"><h2>The Dark Knight</h2></div>
+        <div class="kill-title"><h2 id="dark">The Dark Knight</h2></div>
       </div>
       <div class="tab">
         <div class="tab_list">
@@ -107,6 +107,10 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="footer">
+      <p class="footer-school">福建理工大学|软件工程专业|</p>
+      <p class="myemail">Copyright © 2020 936310568@qq.com</p>
     </div>
   </div>
 </template>
@@ -227,7 +231,6 @@ export default {
     addClass (index) {
       this.active = index
       this.$forceUpdate()
-      console.log(index)
     },
     addClass2 (index) {
       this.active2 = index
@@ -243,7 +246,6 @@ export default {
 
 <style lang="stylus" scoped>
   .the-recommend
-    height 1000px
     width 80%
     float right
     .kill-title
@@ -322,4 +324,14 @@ export default {
           .shape-music
             float left
             margin-left 30px
+  .footer
+    margin-top 100px
+    height 50px
+    .footer-school
+      font-size 12px
+      text-align center
+      margin 0
+    .myemail
+      font-size 12px
+      text-align center
 </style>
