@@ -1,17 +1,17 @@
 <template>
   <div class="login-form" v-if="this.isShowLogin">
+    <a-button class="btn-esc" type="dashed" @click="closeClick">X</a-button>
     <div class="login-title">
       <h3 class="title-h3">登录您的MovieNest账号</h3>
-      <button class="btn-esc" @click="closeClick">X</button>
     </div>
     <form  class="form-info" action="">
       <div class="username">
-        <input class="inputname" type="text" placeholder="请输入您的姓名">
+        <a-input class="inputname" placeholder="请输入您的账号" allow-clear @change="onChange" />
       </div>
       <div class="userpsw">
-        <input class="input-psw" type="password" placeholder="请输入您的密码">
+        <a-input-password class="input-psw" placeholder="请输入您的密码" />
       </div>
-      <button class="btn-login">登录MovieNest</button>
+      <a-button ghost class="btn-login">登录MovieNest</a-button>
     </form>
     <div class="int">进入MovieNest小窝体验更优质服务</div>
   </div>
@@ -42,19 +42,20 @@ export default {
     margin-left -9%
     margin-top -7.5rem
     box-sizing border-box
-    border .1667rem solid #222
-    background #eee
+    background url(../../../../static/images/bgcd.png)
     .form-info
       .username
         text-align center
         margin-top 1rem
         .inputname
           text-align center
+          width 70%
       .userpsw
         text-align center
         margin-top 1rem
         .input-psw
           text-align center
+          width 70%
       .btn-login
         margin-left 3.6rem
         margin-top 1.5rem
@@ -62,12 +63,11 @@ export default {
     .login-title
       overflow hidden
       .title-h3
-        float left
-        margin 2.6rem 0 1rem 2rem
-      .btn-esc
-        float right
-        margin 0
+        font-size 16px
+        margin 2.5rem 0 1rem 1rem
     .int
       margin-top 3.2rem
       margin-left .4rem
+  .btn-esc
+    float right
 </style>

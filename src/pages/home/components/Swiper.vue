@@ -57,7 +57,7 @@ export default {
         width 100%
     .movie-name
       position absolute
-      left 30rem
+      left 26rem
       top 30rem
       width 30rem
       line-height 3rem
@@ -87,7 +87,7 @@ export default {
         width 100%
     .movie-nameb
       position absolute
-      left 30rem
+      left 26rem
       top 30rem
       width 30rem
       line-height 3rem

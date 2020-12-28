@@ -1,17 +1,17 @@
 <template>
   <div class="set-form" v-if="this.isShowSet">
     <div class="set-title">
+      <a-button class="btn-esc" type="dashed" @click="closeSet">X</a-button>
       <h3 class="title-h3">注册您的MovieNest账号</h3>
-      <button class="btn-esc" @click="closeSet">X</button>
     </div>
     <form  class="form-info" action="">
       <div class="username">
-        <input class="inputname" type="text" placeholder="请输入您的姓名">
+        <a-input class="inputname" placeholder="请输入您的账号" allow-clear @change="onChange" />
       </div>
       <div class="userpsw">
-        <input class="input-psw" type="password" placeholder="请输入您的密码">
+        <a-input-password class="input-psw" placeholder="请输入您的密码" />
       </div>
-      <button class="btn-set">注册MovieNest</button>
+      <a-button ghost class="btn-set">注册MovieNest</a-button>
     </form>
     <div class="int">注册MovieNest小窝体验更优质服务</div>
   </div>
@@ -43,19 +43,20 @@ export default {
     margin-left -9%
     margin-top -7.5rem
     box-sizing border-box
-    border .1667rem solid #222
-    background #eee
+    background url(../../../../static/images/bgcd.png)
     .form-info
       .username
         text-align center
         margin-top 1rem
         .inputname
           text-align center
+          width 70%
       .userpsw
         text-align center
         margin-top 1rem
         .input-psw
           text-align center
+          width 70%
       .btn-set
         margin-left 3.6rem
         margin-top 1.5rem
@@ -64,7 +65,7 @@ export default {
       overflow hidden
       .title-h3
         float left
-        margin 2.6rem 0 1rem 2rem
+        margin 1.7rem 0 1rem 2rem
       .btn-esc
         float right
         margin -1px

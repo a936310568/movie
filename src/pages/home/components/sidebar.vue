@@ -3,24 +3,24 @@
     <div class="kill-name">
       <h2 class="kill-name-word">
         <a href="#kill">
+          <p>Mathilda</p>
           <img src="../../../../static/images/kill-bgd.jpg" alt="">
-          Mathilda
         </a>
       </h2>
     </div>
     <div class="fast-name">
       <h2 class="fast-name-word">
         <a href="#fast">
+          <p>Fast and the Furious</p>
           <img src="../../../../static/images/fast-bgd.jpg" alt="">
-          Fast and the Furious
         </a>
       </h2>
     </div>
     <div class="city-name">
       <h2 class="city-name-word">
         <a href="#dark">
+          <p>Dark Knight</p>
           <img src="../../../../static/images/bfx-bgd.jpg" alt="">
-          Dark Knight
         </a>
       </h2>
     </div>
@@ -81,18 +81,21 @@ export default {
         font-size 26px
         color #337ab7
         text-align center
-        img
-          width 10px
-          height 50px
-          opacity 0
         a
           width 100%
           height 180px
-        a:hover img
-          width 80%
-          height 80%
-          opacity 1
-          transition opacity 3s ease-in-out
+          img
+            width 10px
+            height 10px
+            opacity 0
+            border-radius 10%
+        a:hover
+          color #072
+          img
+            opacity 1
+            width 100px
+            height 100px
+            transition width 2s ease, height  2s ease, opacity 2s ease
     .fast-name
       width 100%
       height 180px
@@ -100,18 +103,21 @@ export default {
         font-size 24px
         color #337ab7
         text-align center
-        img
-          width 10px
-          height 50px
-          opacity 0
         a
           width 100%
           height 180px
-        a:hover img
-          width 80%
-          height 80%
-          opacity 1
-          transition opacity 3s ease-in-out
+          img
+            width 10px
+            height 10px
+            opacity 0
+            border-radius 10%
+        a:hover
+          color #072
+          img
+            opacity 1
+            width 100px
+            height 100px
+            transition width 2s ease, height  2s ease, opacity 2s ease
     .city-name
       width 100%
       height 180px
@@ -120,16 +126,19 @@ export default {
         font-size 26px
         color #337ab7
         text-align center
-        img
-          width 10px
-          height 50px
-          opacity 0
         a
           width 100%
           height 180px
-        a:hover img
-          width 80%
-          height 80%
-          opacity 1
-          transition opacity 3s ease-in-out
+          img
+            width 10px
+            height 10px
+            opacity 0
+            border-radius 10%
+        a:hover
+          color #072
+          img
+            opacity 1
+            width 100px
+            height 100px
+            transition width 2s ease, height  2s ease, opacity 2s ease
 </style>
