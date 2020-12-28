@@ -26,12 +26,12 @@
     </swiper-slide>
     <swiper-slide>
       <div class="First-img">
-        <img class="the-img1" src="../../../../static/images/zg.jpg" alt="">
+        <img class="the-img1" src="../../../../static/images/xiaoc.jpg" alt="">
         <div class="movie-name">
-          <h1 class="a-h1">我和我的祖国</h1>
+          <h1 class="a-h1">蝙蝠侠之黑暗骑士</h1>
         </div>
         <div class="movie-name-eg">
-          <h2 class="b-h2">My People, My Country</h2>
+          <h2 class="b-h2">The Dark Knight</h2>
         </div>
       </div>
     </swiper-slide>
