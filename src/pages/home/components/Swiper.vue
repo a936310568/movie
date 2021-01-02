@@ -4,7 +4,7 @@
     <!-- slides -->
     <swiper-slide>
       <div class="First-img">
-        <img class="the-img1" src="https://creeperdance.github.io/FilmNest/img/bg_killer.jpg" alt="">
+        <img class="the-img1" src="../../../../static/images/zgss.jpg" alt="">
         <div class="movie-name">
           <h1 class="a-h1">这个杀手不太冷</h1>
         </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="the-header">
     <div class="img-Container">
-      <img class="the-img" src="../../../../static/images/logo2.png" alt="">
+      <img class="the-img hidden-xs" src="../../../../static/images/logo2.png" alt="">
     </div>
     <div class="movie-left-recommend"></div>
     <div class="movie-left-love">
@@ -96,8 +96,9 @@ export default {
       height 5.5rem
       width 12rem
       .the-img
-        width 100%
-        height 100%
+        display block
+        max-width 100%
+        max-height 100%
     .movie-left-recommend
       float left
       color #ffffff
