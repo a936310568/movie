@@ -141,7 +141,7 @@ export default {
       ],
       tabConList: [
         {
-          conImg: '../../../../static/images/la.jpg',
+          conImg: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=525670369,1620598956&fm=26&gp=0.jpg',
           role: 'Léon',
           star: '让·雷诺 饰演',
           rec: '意大利裔的顶尖职业杀手，一直孤独的住在纽约小意大利，只有一株盆栽是他最好的朋友。他虽然身怀绝技，但内心非常缺乏安全感。甚至从不敢睡在床上，而是坐在椅子上睡，并把枪放在手边。',
@@ -149,7 +149,7 @@ export default {
           music: '../../../../static/audio/shape of my heart.mp3'
         },
         {
-          conImg: '../../../../static/images/mati.png',
+          conImg: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1335939779,4073411778&fm=26&gp=0.jpg',
           role: 'Mathilda',
           star: '娜塔丽·波特曼 饰演',
           rec: '实际年龄只有12岁的小女孩，刚刚亲眼目睹全家被杀。她的生活经历以及悲惨的特殊遭遇令她的性格变的非常的倔强任性、独立自主，而且还有着与年龄极不相称的成熟。',
@@ -159,7 +159,7 @@ export default {
       ],
       secondConList: [
         {
-          conImg: '../../../../static/images/fld.jpg',
+          conImg: 'https://ss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/baike/crop%3D0%2C0%2C640%2C640%3Bh%3D480%3Bq%3D70/sign=7a0af1d59e22720e6f81b8ba46fb2676/dcc451da81cb39dbc50033e1d6160924aa183040.jpg',
           role: 'Dominica',
           star: '范·迪塞尔 饰演',
           rec: '老大兼车手，绝对十足的飞车老大，对朋友讲义，对家人讲情。道奇是他的标志，只要一开上道奇，没人比得过他。',
@@ -167,7 +167,7 @@ export default {
           music: 'http://mp3.9ku.com/mp3/511/510046.mp3'
         },
         {
-          conImg: '../../../../static/images/ble.jpg',
+          conImg: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1999950416,193065689&fm=26&gp=0.jpg',
           role: 'Brian O Conner',
           star: '保罗·沃克 饰演',
           rec: '军师兼车手，一个爱非法赛车的前FBI探员，卧底期间和飞车党老大成为生死之交，并与老大的胞妹米娅眉来眼去，为大舅子劫大狱，带怀孕的米娅走天涯。在第七部最后隐退。',
@@ -175,7 +175,7 @@ export default {
           music: 'http://mp3.9ku.com/mp3/511/510046.mp3'
         },
         {
-          conImg: '../../../../static/images/my.png',
+          conImg: 'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=730082010,3114458662&fm=26&gp=0.jpg',
           role: 'Mia Toretto',
           star: '乔丹娜·布鲁斯特 饰演',
           rec: '后援，多米尼克的胞妹。从小跟着大哥混江湖，却偏偏爱上了FBI探员，因为对方卧底身份一度情路中断，但最终修成正果。',
@@ -183,7 +183,7 @@ export default {
           music: 'http://mp3.9ku.com/mp3/511/510046.mp3'
         },
         {
-          conImg: '../../../../static/images/mxe.jpg',
+          conImg: 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=179273716,3909784646&fm=26&gp=0.jpg',
           role: 'Letty Ortiz',
           star: '米歇尔·罗德里格兹 饰演',
           rec: '前团队干将，多米尼克的女人，为自家男人什么事情都敢做。四年前她为男人留一条后路，生死不明。莱蒂和多米尼克的关系是一种在老式的婚姻中才能找到的罕见的浪漫的忠诚。',
@@ -193,7 +193,7 @@ export default {
       ],
       thirdConList: [
         {
-          conImg: '../../../../static/images/blswe.jpg',
+          conImg: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=338534977,658109244&fm=26&gp=0.jpg',
           role: 'Bruce Wayne',
           star: '克里斯蒂安·贝尔 饰演',
           rec: '大部分时间，韦恩老爷都是哥潭市的花花公子和家族企业CEO，但当这座城市面临危机的时候，当欺诈、暴力、犯罪企图玷污这座城市的时候，他就是正义之神蝙蝠侠。',
@@ -201,7 +201,7 @@ export default {
           music: 'http://mp3.9ku.com/new/2015/05-15/663664.mp3'
         },
         {
-          conImg: '../../../../static/images/bfxxc.jpg',
+          conImg: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1910586556,1112802577&fm=26&gp=0.jpg',
           role: 'Joker',
           star: '希斯·莱杰 饰演',
           rec: '哥潭市正在从黑暗的边缘回到风气清明的安全城市。此时出现了一名叫做“小丑”的狂人。他不在乎金钱，也不求名利，他制造爆炸和屠杀，小丑所要做的就是对人性重新做考量，他要迫使从不杀人的蝙蝠侠手上染血。',
@@ -209,7 +209,7 @@ export default {
           music: 'http://mp3.9ku.com/new/2015/05-15/663664.mp3'
         },
         {
-          conImg: '../../../../static/images/hwdt.jpg',
+          conImg: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1904663586,3953443620&fm=26&gp=0.jpg',
           role: 'Harvey Dent',
           star: '艾伦·艾克哈特 饰演',
           rec: '光明而又善良的检察官哈维·丹特唯一的问题就是太过偏执，自从他毁容的那一刻起，自从那枚硬币的一面布满刮痕的那一刻起，他的冲动与决心最终酿成了大错',
@@ -217,7 +217,7 @@ export default {
           music: 'http://mp3.9ku.com/new/2015/05-15/663664.mp3'
         },
         {
-          conImg: '../../../../static/images/arfld.jpg',
+          conImg: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3480259232,3092070247&fm=26&gp=0.jpg',
           role: 'Alfred',
           star: '迈克尔·凯恩 饰演',
           rec: '阿尔弗雷德是韦恩家族最忠诚可靠的朋友，他曾经“参加了好几代韦恩的葬礼”。他看护着布鲁斯·韦恩长大，又在布鲁斯离家期间照看韦恩产业，即使布鲁斯决定做行侠仗义的蝙蝠侠，他也都在身后默默地支持',
